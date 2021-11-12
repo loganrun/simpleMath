@@ -1,0 +1,11 @@
+.box1{
+    box-shadow: -4px 10px 35px -1px rgba(0,0,9,0.75);
+    min-height: 20rem;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #20232A;
+    /* background-color:    //#121414;
+    //color:beige; */
+    text-align: center;
+}
