@@ -39,7 +39,7 @@
 .box{
   box-shadow: -4px 10px 35px -1px rgba(0,0,9,0.75);
   min-height: 20rem;
-  margin: 30px;
+  margin: 30px; 
   padding: 20px;
   border-radius: 5px;
   background-color: #121414;
@@ -49,11 +49,40 @@
 }
 
 .container{
-  margin: 20px;
+  /* margin: 20px; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #282c34 ;
   width: 100vw;
-  margin: 0;
-  height: 100vh
+  
+  /* margin: 0; */
+  /* height: 100vh */
 }
+
+.headline{
+  color: #FF4E00;
+  font-size: 2em;
+
+}
+
+@media only screen and (max-width: 480px) { 
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #282c34 ;
+    width: 100vw;
+
+  }
+  .box{
+    box-shadow: -4px 10px 35px -1px rgba(0,0,9,0.75);
+    min-height: 20rem;
+    margin: 30px; 
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #121414;
+    color:beige;
+    text-align: center;
+    
+  }
+  
+} 
